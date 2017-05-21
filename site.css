@@ -87,10 +87,10 @@ main nav a:hover{
 /* ---------------------------------- SUB PAGINA: NAVIGATIE ---------------------------------------------*/
 
 .subHRDCRlogo{
-      width:150px;
+      width:180px;
       position:absolute;
-      margin-top:20px;
-      margin-left:425px;
+      margin-top:15px;
+      margin-left:405px;
 }
 
 nav a {
@@ -273,6 +273,13 @@ button:hover{
 }
 
 
+.footerstreep{
+  width: 1280px;
+  margin-top:-100px;
+  margin-left: -130px;
+  margin-bottom: -500px;
+}
+
 /* ------------------------------------------- ABOUT --------------------------------------- */
 
 .aboutFoto{
@@ -298,6 +305,12 @@ button:hover{
   line-height: 25px;
 }
 
+.footerstreep2{
+  width: 1280px;
+  margin-top:-50px;
+  margin-left: -130px;
+  margin-bottom: -500px;
+}
 
 /* --------------------------------------- BANDS ---------------------------------------- */
 
@@ -368,6 +381,13 @@ button:hover{
   margin-left: 785px;
 }
 
+.footerstreep3{
+  width: 1280px;
+  margin-top:-350px;
+  margin-left: -130px;
+  margin-bottom: -500px;
+}
+
 
 
 /* --------------------------------------- GALLERY -------------------------------------- */
@@ -398,32 +418,47 @@ button:hover{
       margin-bottom: 20px;
 }
 
+.footerstreep4{
+  width: 1280px;
+  margin-top:450px;
+  margin-left: -130px;
+  margin-bottom: -500px;
+}
 
 /* --------------------------------------- SHOP ----------------------------------------- */
 
+
+.winkelkar{
+  width: 40px;
+  margin-top: 170px;
+  margin-left: 1040px;
+  position: absolute;
+
+}
+
 .fotoShop {
-      width:1000px;
+      width:1500px;
       position: absolute;
       margin-top: 150px;
-      margin-left: 15px;
+      margin-left: -20px;
 }
 
 .shopImg{
-  width: 200px;
-  padding: 20px;
+  width: 350px;
 }
 
 .shopImg:hover{
-  width:205px;
 }
 
-.fotoShop div {
-      width: 300px;
-      height: 300px;
-      border: 1px solid white;
-      float: right;
-      margin-left: 50px;
-      margin-bottom: 20px;
+.fotoShop a{
+  text-decoration: none;
+}
+
+.footerstreep5{
+  width: 1280px;
+  margin-top:800px;
+  margin-left: -130px;
+  margin-bottom: -500px;
 }
 
 /* -------------------------------------------- CONTACT ------------------------------------------------- */
@@ -474,4 +509,11 @@ input[type="submit"]  {
 
 input[type="submit"]:hover{
   background-color: rgb(255, 69, 0);
+}
+
+.footerstreep6{
+  width: 1280px;
+  margin-top:300px;
+  margin-left: -130px;
+  margin-bottom: -500px;
 }
