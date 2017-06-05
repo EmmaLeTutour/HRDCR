@@ -10,7 +10,7 @@ body{
 /* ------------------------------ START ------------------------------------------ */
 
 .startHRDCRlogo{
-      width:600px;
+      width:60%;
       position:absolute;
       margin-top:155px;
       margin-left:190px;
@@ -86,6 +86,9 @@ main nav a:hover{
 
 /* ---------------------------------- SUB PAGINA: NAVIGATIE ---------------------------------------------*/
 
+.header{
+  width:100%;
+}
 .subHRDCRlogo{
       width:180px;
       position:absolute;
@@ -562,4 +565,11 @@ input[type="submit"]:hover{
   position: absolute;
   margin-left: 860px;
   margin-top: 805px;
+}
+
+/* -------------------------------------------- RESPONSIVE ------------------------------------------------- */
+
+@media (max-width: 700px) {
+  .starthome, .startabout, .startbands, .startgallery, .startshop, .startcontact{float: left;}
+
 }
